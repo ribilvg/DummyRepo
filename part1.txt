@@ -1,0 +1,13 @@
+Create a dummy repo in the web GUI named DummyRepo
+
+cd git_dir/
+touch README.md
+git init
+echo "#DummyRepo read me file" >> README.md
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/ribilvg/DummyRepo.git
+git push -u origin master
+	-type username and password
+	
+	
